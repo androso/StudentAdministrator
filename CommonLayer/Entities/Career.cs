@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace CommonLayer.Entities
 {
-    public class Career
-    {
-        public int idCareer { get; set; }
-        public string nameCareer { get; set; }
-        public string descriptionCareer { get; set; }
-
-    }
+	public class Career
+	{
+		public int idCareer { get; set; }
+		public string nameCareer { get; set; }
+		public string descriptionCareer { get; set;}
+	}
 }
